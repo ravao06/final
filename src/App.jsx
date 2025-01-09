@@ -71,7 +71,7 @@ function App() {
         </form>
       ) : (
         <div style={styles.result}>
-          <p>Séquence attendue :</p>
+          <p> Atten :</p>
           <ul style={styles.list}>
             {sequence.map((line, index) => (
               <li key={index} style={styles.listItem}>
